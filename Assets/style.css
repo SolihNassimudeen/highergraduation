@@ -1,0 +1,122 @@
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+
+/* title section  */
+
+#title {
+    background-color: #9c8fff;
+    width: 100%;
+    color: #fff;
+}
+
+#title-div {
+    width: 100%;
+    padding: 0.5% 8%;
+}
+
+#brandName {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navLinks {
+    margin-left: 100px;
+}
+
+.titleselect {
+    border: none;
+    background-color: #9c8fff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.titleselect:hover {
+    font-weight: 700;
+}
+
+.titleoption {
+    background-color: #fff;
+    color: black;
+    font-size: 1rem;
+}
+
+.nav-link-a {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.nav-link-a:hover {
+    font-weight: 700;
+}
+
+/* image div  */
+.home-textdiv {
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    text-align: left;
+    padding: 20% 12%;
+}
+
+.image-div {
+    z-index: -1;
+}
+
+.home-image {
+    width: 300px;
+    transform: rotate(25deg);
+    margin-top: 80px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.home-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(36, 34, 78);
+    font-size: 3.5rem;
+}
+
+.home-paragraph {
+    color: gray;
+}
+
+.btn-watsapp {
+    background-color: #4FCE5D;
+    color: white;
+    font-weight: 700;
+    width: 10rem;
+    padding: .8rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+
+.btn-gmail {
+    background-color: #282666;
+    color: #fff;
+    font-weight: 700;
+    width: 10rem;
+    padding: .8rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+.btn-watsapp:hover{
+    background-color: green;
+}
+.btn-gmail:hover{
+    background-color: #19183f;
+}
